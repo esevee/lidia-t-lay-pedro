@@ -1,0 +1,42 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    
+}
+
+
+li:nth-child(2) {
+    background: rgba(148,187,233,1);
+  }
+li:nth-child(3) {
+    background: red;
+  }
+li:nth-child(1) {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+
+
+/**global*/
+a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    background-color: sandybrown;
+    color: #3a3a3a;
+    transition: all 2s ease;
+}
+
