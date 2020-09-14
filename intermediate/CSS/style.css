@@ -11,3 +11,27 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
+.header {
+}
+
+.header p {
+  border-bottom: 10px solid black;
+  width: 340px;
+}
+
+.amount1 {
+  border-bottom: 1.5px solid black;
+  align-items: flex-end;
+}
+
+/*global*/
+
+li {
+  list-style: none;
+  border: 1px solid black;
+}
+
+.number {
+  text-align: right;
+}
