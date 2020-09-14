@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 25%;
+  border: 2px solid #3a3a3a;
+}
 ul {
   display: flex;
+  justify-content: space-between;
 }
